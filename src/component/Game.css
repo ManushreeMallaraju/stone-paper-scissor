@@ -1,0 +1,67 @@
+.game-wrapper{
+    width: 70%;
+    margin: 40px auto;
+    box-shadow: 2px 2px 7px 0px #ccc;
+    padding: 15px;
+    background-color: cadetblue;
+    height: 451px;
+}
+.title{
+    color: floralwhite;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.humanMode-options a{
+    display: inline-block;
+    padding-right:15px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+button{
+    background-color: crimson !important;
+    color: #fff !important;
+    border-radius: 8px;
+}
+button:focus{
+    box-shadow: none;
+}
+
+.humanMode-options img{
+    width: 50px;
+    border-radius: 50px;
+}
+
+.humanMode-options a:hover{
+    transform: translate(0px, -5px);
+    filter: opacity(0.5);
+}
+
+/* select.form-control{
+    width: 65%;
+} */
+.show-result{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    box-shadow: 1px -1px 12px -2px #cdcdcd;
+    margin-top: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.show-result .winner{
+    color: #1e7e34;
+}
+
+.show-result .score p{
+    font-size: 40px;
+    color: #ff1053;
+}
+
+.show-weapon img{
+    width: 205px;
+    height: 200px;
+}
